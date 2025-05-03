@@ -1,98 +1,50 @@
-# Near-Earth Object (NEO) Tracker 🚀
+# Welcome to your Expo app 👋
 
-This is a React Native app built with Expo that displays Near-Earth Objects (NEOs) from NASA's API based on a user-selected date. You can view details such as velocity, distance, size, and whether the object is potentially hazardous.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
----
+## Get started
 
-## 📦 Prerequisites
+1. Install dependencies
 
-- **Node.js** (v18 or later recommended)
-- **Expo CLI**  
-  Install globally if you haven't already:
-  ```bash
-  npm install -g expo
-  ```
-- **Git**
-- **Android Studio** or **Xcode** (for emulator testing, optional)
+   ```bash
+   npm install
+   ```
 
----
+2. Start the app
 
-## 🚀 Getting Started
+   ```bash
+   npx expo start
+   ```
 
-### 1. Clone the Repository
+In the output, you'll find options to open the app in a
 
-```bash
-git clone https://github.com/emunoz8/NearEarthObjects.git
-cd NearEarthObjects 
-```
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-### 2. Install Dependencies
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-#### Option 1: With Setup Script (Linux/macOS)
+## Get a fresh project
 
-```bash
-chmod +x setup.sh
-./setup.sh
-```
-
-#### Option 2: Manually
+When you're ready, run:
 
 ```bash
-npm install
+npm run reset-project
 ```
 
----
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## 🔑 API Key Setup
+## Learn more
 
-1. Get your free NASA API key from [https://api.nasa.gov](https://api.nasa.gov).
-2. Create a `.env` file in the root of the project:
+To learn more about developing your project with Expo, look at the following resources:
 
-```env
-API_KEY=your_nasa_api_key_here
-```
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
----
+## Join the community
 
-## 📱 Running the App
+Join our community of developers creating universal apps.
 
-Start the Expo development server:
-
-```bash
-npm start
-```
-
-This will open the Expo Developer Tools in your browser.
-
-You can then:
-
-- Press `i` to open the iOS simulator (Mac only)
-- Press `a` to open the Android emulator
-- Or scan the QR code using the **Expo Go** app on your phone
-
----
-
-## 🗂 Project Structure
-
-```
-neo-tracker/
-├── app/                    # Screens and pages
-├── components/             # Reusable UI components
-├── utils/                  # Utility functions like date parsing and API calls
-├── .env                    # Your API key goes here (not committed to Git)
-├── setup.sh                # Optional setup script
-├── package.json            # Project dependencies and scripts
-└── README.md               # This file
-```
-
----
-
-## 📝 License
-
-MIT License © 2025
-
----
-
-## 👨‍💻 Author
-
-Created by Edwin Munoz – Contributions welcome!
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.

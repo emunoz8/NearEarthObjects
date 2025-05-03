@@ -1,9 +1,10 @@
-import { Text, View, StyleSheet, TextInput, Button } from 'react-native';
-import { useState, useEffect } from 'react';
-import { isValidDate, formatDate } from '@/utils/dateUtils'; 
-import { fetchNEOs, NEO } from '@/utils/fetchNEOs'; 
+import NEOList from '@/components/NearEarthObjects';
+import { formatDate, isValidDate } from '@/utils/dateUtils';
+import { fetchNEOs, NEO } from '@/utils/fetchNEOs';
+// eslint-disable-next-line import/no-unresolved
 import { API_KEY } from '@env';
-import NEOList from '@/components/NearEarthObjects'
+import { useEffect, useState } from 'react';
+import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 
 export default function AboutScreen() {
   const [neoDataByDate, setNeoDataByDate] = useState<{ [date: string]: NEO[] }>({});
