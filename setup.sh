@@ -18,7 +18,7 @@ fi
 if ! command -v expo &> /dev/null
 then
     echo "Expo CLI not found. Installing Expo globally..."
-    npm install -g expo-cli
+    npm install -g expo
 else
     echo "Expo CLI is already installed."
 fi

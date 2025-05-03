@@ -10,7 +10,7 @@ This is a React Native app built with Expo that displays Near-Earth Objects (NEO
 - **Expo CLI**  
   Install globally if you haven't already:
   ```bash
-  npm install -g expo-cli
+  npm install -g expo
   ```
 - **Git**
 - **Android Studio** or **Xcode** (for emulator testing, optional)
@@ -23,7 +23,7 @@ This is a React Native app built with Expo that displays Near-Earth Objects (NEO
 
 ```bash
 git clone https://github.com/emunoz8/NearEarthObjects.git
-cd neo-tracker
+cd NearEarthObjects 
 ```
 
 ### 2. Install Dependencies

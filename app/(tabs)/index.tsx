@@ -1,6 +1,4 @@
 import { Text, View, StyleSheet, ScrollView } from 'react-native';
- import { Link } from 'expo-router'; 
-import Button from '@/components/Button'
 import {useRouter} from 'expo-router'
 import {aboutText} from '@/lib/NEOcontent';
 
