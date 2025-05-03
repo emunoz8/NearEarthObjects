@@ -1,11 +1,8 @@
 import { Text, View, StyleSheet, ScrollView } from 'react-native';
-import {useRouter} from 'expo-router'
 import {aboutText} from '@/lib/NEOcontent';
 
 export default function Index() {
-  const router = useRouter();
 
-  
   return (
     <View style={styles.container}>
       <ScrollView style={styles.container}>
